@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doa"
+    android:background="@drawable/tamplate1">
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Doa Sebelum Tidur"
+        android:id="@+id/tidur"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/tidur1"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Doa Sesudah Tidur"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tidur1"
+       />
+    <Button
+        android:id="@+id/makan"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/tidur1"
+        android:layout_marginLeft="20dp"
+        android:text="Doa Sebelum Makan" />
+    <ImageButton
+        android:id="@+id/lanjut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/next"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+
+        android:text=">>" />
+    <ImageButton
+        android:background="@drawable/home"
+        android:id="@+id/home3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:text="HOME" />
+
+
+
+
+
+</RelativeLayout>
