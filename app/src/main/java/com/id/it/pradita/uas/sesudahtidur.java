@@ -8,12 +8,12 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 public class sesudahtidur extends AppCompatActivity {
-    ImageButton close;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sesudahtidur);
-        close = (ImageButton) findViewById(R.id.close);
+        Button close = (Button) findViewById(R.id.kembali);
         close.setOnClickListener(new View.OnClickListener() {
                                      @Override
                                      public void onClick(View view) {
@@ -23,5 +23,21 @@ public class sesudahtidur extends AppCompatActivity {
                                      }
                                  }
         );
+        Button boo = (Button) findViewById(R.id.latin);
+        boo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent arab = new Intent(sesudahtidur.this,Latin1.class);
+                startActivity(arab);
+            }
+        });
+        Button video = (Button) findViewById(R.id.video);
+        video.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent video = new Intent(sesudahtidur.this,video1.class);
+                startActivity(video);
+            }
+        });
     }
 }

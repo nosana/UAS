@@ -12,18 +12,19 @@
     android:layout_centerHorizontal="true"
     android:layout_centerVertical="true"
     tools:ignore="NewApi">
-    <ImageButton
+    <Button
         android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:background="@drawable/belajar_3"
+        android:layout_height="100dp"
+        android:text="belajar"
         android:id="@+id/mulai_1"
-        tools:ignore="ContentDescription" />
+        android:layout_gravity="center"
+    />
 
     <ImageButton
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_alignEnd="@+id/mulai"
-        android:background="@drawable/latihan1"
+        android:background="@drawable/latihan"
         android:layout_centerInParent="true"
         android:id="@+id/quiz"
         tools:ignore="ContentDescription,ObsoleteLayoutParam,RtlHardcoded" />

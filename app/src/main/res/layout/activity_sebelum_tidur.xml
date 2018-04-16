@@ -9,48 +9,66 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="."
-        android:id="@+id/."
+        android:text="Doa sebelum tidur"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        />
+        android:layout_marginLeft="20dp"
+        android:text="arab"
+        android:id="@+id/arab"
+        android:layout_above="@+id/latin"/>
 
-    <ImageButton
-        android:layout_width="120dp"
-        android:layout_height="100dp"
-        android:text="LATIN"
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:id="@+id/latin"
-        android:background="@drawable/latin"/>
+        android:layout_marginLeft="20dp"
+        android:text="latin"
+        android:id="@+id/latin"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/latin"
+        android:text="video"
+        android:id="@+id/video"/>
 
-    <ImageButton
-        android:layout_width="120dp"
-        android:layout_height="100dp"
-        android:background="@drawable/arab"
-        android:layout_below="@+id/."
-        android:id="@+id/arab"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="kembali"
+        android:id="@+id/kembali"/>
 
-    <ImageButton
-        android:layout_width="120dp"
-        android:layout_height="100dp"
-        android:text="Arti"
-        android:layout_above="@+id/."
-        android:background="@drawable/arti"
-        android:id="@+id/arti"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:text="Doa Sebelum Tidur"
-        android:textColor="@android:color/black"/>
-    <ImageButton
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/close"
-        android:background="@drawable/cancel"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginTop="118dp"
+        android:text="@string/tidurQ"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
 
+    <TextView
+        android:layout_width="442dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="150dp"
+        android:text="@string/tidurC"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
 
 
 

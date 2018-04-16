@@ -1,4 +1,18 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">UAS</string>
     <string name="exit">exit</string>
+
+    <string name="makanC" tools:ignore="StringEscaping">Alloohumma barik lanaa fiimaa razatanaa waqinaa 'adzaa bannarِ</string>
+    <string name="makanA" tools:ignore="StringEscaping">اَللّٰهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ</string>
+    <string name="makanB">Artinya: "Ya Allah, berkahilah kami dalam rezeki yang telah Engkau berikan kepada kami dan peliharalah kami dari siksa api neraka"</string>
+
+    <string name="tidurQ">سْمِكَ اللّٰهُمَّ اَحْيَا وَاَمُوْتُ</string>
+    <string name="tidurB">Bismikallohumma ahya wa amuutu</string>
+    <string name="tidurC">Artinya: "Dengan menyebut nama-Mu ya Allah, aku hidup dan aku mati".</string>
+
+    <string name="tidurD">اَلْحَمْدُ ِللهِ الَّذِىْ اَحْيَانَا بَعْدَمَآ اَمَاتَنَا وَاِلَيْهِ النُّشُوْرُُ</string>
+    <string name="tidurE" tools:ignore="StringEscaping">Alhamdu lillahil ladzii ahyaanaa ba'da maa amaa tanaa wa ilahin nusyuuru</string>
+    <string name="tidurF">Artinya : "Segala puji bagi Allah yang telah menghidupkan kami sesudah kami mati (membangunkan dari tidur) dan hanya kepada-Nya kami dikembalikan".</string>
+
+
 </resources>

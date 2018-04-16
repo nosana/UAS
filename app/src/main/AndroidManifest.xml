@@ -39,7 +39,13 @@
         <activity
             android:name=".sebelummakan"
             android:screenOrientation="landscape" />
-        <activity android:name=".quis"></activity>
+        <activity android:name=".quis" />
+        <activity android:name=".Latin" />
+        <activity android:name=".video" />
+        <activity android:name=".Latin1" />
+        <activity android:name=".video1" />
+        <activity android:name=".latin3" />
+        <activity android:name=".video3"></activity>
     </application>
 
 </manifest>

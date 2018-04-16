@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sebelummakan"
+    tools:context=".Latin1"
     android:background="@drawable/tamplate">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Doa sebelum makan"
+        android:text="Doa sesudah tidur"
         android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
-        android:textSize="40dp"/>
+        android:textSize="50dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -21,8 +22,8 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="20dp"
         android:text="arab"
-        android:id="@+id/arab3"
-        android:layout_above="@+id/latin3"/>
+        android:id="@+id/arab1"
+        android:layout_above="@+id/latin1"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -30,15 +31,15 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="20dp"
         android:text="latin"
-        android:id="@+id/latin3"/>
+        android:id="@+id/latin1"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginLeft="20dp"
-        android:layout_below="@+id/latin3"
+        android:layout_below="@+id/latin1"
         android:text="video"
-        android:id="@+id/video3"/>
+        android:id="@+id/video1"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -52,9 +53,9 @@
         android:layout_width="385dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/arab3"
+        android:layout_alignTop="@+id/arab1"
         android:layout_marginEnd="50dp"
-        android:text="@string/makanA"
+        android:text="@string/tidurD"
         android:textColor="@color/black"
         android:textSize="35dp" />
 
@@ -65,8 +66,9 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="40dp"
         android:layout_marginStart="150dp"
-        android:text="@string/makanB"
+        android:text="@string/tidurC"
         android:textColor="@color/black"
-        android:textSize="20dp" />
+        android:textSize="30dp" />
+
 
 </RelativeLayout>

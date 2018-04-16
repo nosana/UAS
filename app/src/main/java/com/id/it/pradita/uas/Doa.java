@@ -9,7 +9,8 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 public class Doa extends AppCompatActivity {
-    ImageButton lanjut,home,Tidur1, Tidur2,makan;
+    ImageButton lanjut,home;
+    Button Tidur1, Tidur2,makan;
 
     @SuppressLint("WrongViewCast")
     @Override
@@ -37,7 +38,7 @@ public class Doa extends AppCompatActivity {
                                        }
                                    }
         );
-        Tidur1 = (ImageButton) findViewById(R.id.tidur);
+        Tidur1 = (Button) findViewById(R.id.tidur);
         Tidur1.setOnClickListener(new View.OnClickListener() {
                                      @Override
                                      public void onClick(View view) {
@@ -47,7 +48,7 @@ public class Doa extends AppCompatActivity {
                                      }
                                  }
         );
-        Tidur2 = (ImageButton)findViewById(R.id.tidur1);
+        Tidur2 = (Button)findViewById(R.id.tidur1);
         Tidur2.setOnClickListener(new View.OnClickListener() {
                                       @Override
                                       public void onClick(View view) {
@@ -57,7 +58,7 @@ public class Doa extends AppCompatActivity {
                                       }
                                   }
         );
-        makan = (ImageButton)findViewById(R.id.makan);
+        makan = (Button)findViewById(R.id.makan);
         makan.setOnClickListener(new View.OnClickListener() {
                                       @Override
                                       public void onClick(View view) {

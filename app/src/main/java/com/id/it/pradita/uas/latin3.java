@@ -5,31 +5,28 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
-public class sebelummakan extends AppCompatActivity {
-    ImageButton close;
+public class latin3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sebelummakan);
-        Button close = findViewById(R.id.kembaliA);
-        close.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_latin3);
+        Button close = (Button) findViewById(R.id.kembaliA);
+        close.setOnClickListener(new View.OnClickListener(){
                                      @Override
                                      public void onClick(View view) {
-                                         Intent close= new Intent(sebelummakan.this,Doa.class);
+                                         Intent close= new Intent(latin3.this,Doa.class);
                                          startActivity(close);
 
                                      }
                                  }
         );
-
-        Button boo = (Button) findViewById(R.id.latin3);
-        boo.setOnClickListener(new View.OnClickListener() {
+        Button boo1 = (Button) findViewById(R.id.arab3);
+        boo1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent arab = new Intent(sebelummakan.this,latin3.class);
+                Intent arab = new Intent(latin3.this,sebelummakan.class);
                 startActivity(arab);
             }
         });
@@ -37,7 +34,7 @@ public class sebelummakan extends AppCompatActivity {
         video.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent video = new Intent(sebelummakan.this,video3.class);
+                Intent video = new Intent(latin3.this,video.class);
                 startActivity(video);
             }
         });
